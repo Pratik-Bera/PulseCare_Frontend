@@ -1,12 +1,17 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { NavigationContainer } from '@react-navigation/native';
+import React from 'react';
+/*Self defined imports */
+import { StatusBar } from 'react-native';
+import { RootNavigator } from './src/routes';
 
 export default function App() {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+      <NavigationContainer>
+      <StatusBar
+        backgroundColor="#2756E6"
+     />
+        <RootNavigator />
+        {/* <DrawerNav/> */}
+      </NavigationContainer>
   )
 }
-
-const styles = StyleSheet.create({})
