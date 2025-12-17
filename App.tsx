@@ -6,12 +6,12 @@ import { RootNavigator } from './src/routes';
 
 export default function App() {
   return (
-      <NavigationContainer>
+    <NavigationContainer>
       <StatusBar
-        backgroundColor="#2756E6"
-     />
-        <RootNavigator />
-        {/* <DrawerNav/> */}
-      </NavigationContainer>
+        backgroundColor="#FFFFFF"
+      />
+      <RootNavigator />
+      {/* <DrawerNav/> */}
+    </NavigationContainer>
   )
 }

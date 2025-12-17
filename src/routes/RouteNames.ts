@@ -1,4 +1,5 @@
 export enum RouteNames{
   SPLASH = 'SPLASH',
   LOGIN = 'LOGIN',
+  REGISTRATION ='REGISTRATION'
 }
